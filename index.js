@@ -82,12 +82,20 @@
 // console.log(names)
 
 
-// SPREAD SYNTAX
-const ninjas = ['shaun', 'mario', 'peach']
-const blog =  { title: 'new blog', author: 'bowser'}
+// // SPREAD SYNTAX
+// const ninjas = ['shaun', 'mario', 'peach']
+// const blog =  { title: 'new blog', author: 'bowser'}
 
-// console.log(...ninjas)
+// // console.log(...ninjas)
 
-const idBlog = {...blog}
-// const idBlog = {...blog, id: 1}
-console.log(idBlog)
+// const idBlog = {...blog}
+// // const idBlog = {...blog, id: 1}
+// console.log(idBlog)
+
+// TEMPLATE STRINGS
+const name = 'shaun'
+const job = 'developer'
+
+
+const string = `Hi I am ${name}, and my job is ${job}`
+console.log(string)
