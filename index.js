@@ -60,23 +60,34 @@
 
 // FILTER AND MAP
 
-const ninjas = [
-  { name: 'shaun', belt: 'black' },
-  { name: 'mario', belt: 'orange' },
-  { name: 'yoshi', belt: 'black' },
-  { name: 'luigi', belt: 'green' }
-]
+// const ninjas = [
+//   { name: 'shaun', belt: 'black' },
+//   { name: 'mario', belt: 'orange' },
+//   { name: 'yoshi', belt: 'black' },
+//   { name: 'luigi', belt: 'green' }
+// ]
 
-// filter method
-  const blackBelts = ninjas.filter((ninja) => {
-    return ninja.belt == 'black'
-  })
-  console.log(blackBelts)
+// // filter method
+//   const blackBelts = ninjas.filter((ninja) => {
+//     return ninja.belt == 'black'
+//   })
+//   console.log(blackBelts)
 
 
-// map method
-const names = ninjas.map((ninja) => {
-  return ninja.name
-})
+// // map method
+// const names = ninjas.map((ninja) => {
+//   return ninja.name
+// })
 
-console.log(names)
+// console.log(names)
+
+
+// SPREAD SYNTAX
+const ninjas = ['shaun', 'mario', 'peach']
+const blog =  { title: 'new blog', author: 'bowser'}
+
+// console.log(...ninjas)
+
+const idBlog = {...blog}
+// const idBlog = {...blog, id: 1}
+console.log(idBlog)
