@@ -93,9 +93,27 @@
 // console.log(idBlog)
 
 // TEMPLATE STRINGS
-const name = 'shaun'
-const job = 'developer'
+// const name = 'shaun'
+// const job = 'developer'
 
 
-const string = `Hi I am ${name}, and my job is ${job}`
-console.log(string)
+// const string = `Hi I am ${name}, and my job is ${job}`
+// console.log(string)
+
+
+// ARROW FUNCTIONS
+
+function greetOne() {
+  console.log('hello')
+}
+
+const greetTwo = () => {
+  console.log('hello again')
+}
+
+names.map(() => {
+  return 'hello'
+})
+
+// short version
+names.map(() => 'hello')
