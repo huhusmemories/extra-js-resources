@@ -101,19 +101,26 @@
 // console.log(string)
 
 
-// ARROW FUNCTIONS
+// // ARROW FUNCTIONS
 
-function greetOne() {
+// function greetOne() {
+//   console.log('hello')
+// }
+
+// const greetTwo = () => {
+//   console.log('hello again')
+// }
+
+// names.map(() => {
+//   return 'hello'
+// })
+
+// // short version
+// names.map(() => 'hello')
+
+
+// FETCH API
+fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then((res) => res.json())
+  .then((data) => console.log(data))
   console.log('hello')
-}
-
-const greetTwo = () => {
-  console.log('hello again')
-}
-
-names.map(() => {
-  return 'hello'
-})
-
-// short version
-names.map(() => 'hello')
